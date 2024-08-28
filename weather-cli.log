@@ -1,0 +1,2 @@
+ERROR:__main__:Request error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/3.0/onecall?lat=-30.03283&lon=-51.23019&appid=12aae474bd9d481968c9b6266c540232a&units=metric&exclude=minutely%2Chourly%2Cdaily%2Calerts
+2024-08-28 14:32:24,751 Request error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/3.0/onecall?lat=-30.03283&lon=-51.23019&appid=12aae474bd9d481968c9b6266c540232a&units=metric&exclude=minutely%2Chourly%2Cdaily%2Calerts
