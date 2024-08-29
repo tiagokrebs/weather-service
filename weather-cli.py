@@ -2,6 +2,8 @@ import requests
 import logging
 import sys
 import json
+import time
+import daemon
 from cache import get_cache, set_cache
 
 logger = logging.getLogger(__name__)
@@ -113,6 +115,13 @@ def show_weather(weather, city_name, output_format='text'):
         print("No weather data available.")
         logger.error("No weather data available.")
 
+# def run_daemon(city, output_format, interval):
+#     while True:
+#         city_name, long, lat = get_long_lat(city)
+#         weather = get_weather(long, lat)
+#         show_weather(weather, city_name, output_format)
+#         time.sleep(interval)
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python weather-cli.py <city> <output_format>")
@@ -131,6 +140,10 @@ def main():
         print("Invalid output format. Please use 'json' or 'text'.")
         logger.error("Invalid output format. Please use 'json' or 'text'.")
         sys.exit(1)
+
+    # interval = 30
+    # with daemon.DaemonContext():
+    #     run_daemon(city, output_format, interval)
 
     city_name, long, lat = get_long_lat(city)
     weather = get_weather(long, lat)

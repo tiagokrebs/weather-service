@@ -1,5 +1,6 @@
 certifi==2024.7.4
 charset-normalizer==2.0.12
+daemon==1.2
 hashring==1.5.1
 idna==3.8
 memcache==0.10.1

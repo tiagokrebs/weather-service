@@ -79,3 +79,5 @@ ERROR:__main__:Request error: 401 Client Error: Unauthorized for url: https://ap
 2024-08-29 11:34:44,141 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
 2024-08-29 11:34:47,488 Using cached data - City Sao_Paulo
 2024-08-29 11:34:47,489 Using cached data - Weather -46.6333824 -23.5506507
+2024-08-29 11:43:59,221 Request 200 http://api.openweathermap.org/geo/1.0/direct {'user-agent': 'weather-cli/0.0.1'} {'q': 'Sao_Paulo', 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'LIMIT': '1'}
+2024-08-29 11:43:59,764 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
