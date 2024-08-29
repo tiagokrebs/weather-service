@@ -1,10 +1,14 @@
 from pymemcache.client import base
 import json
 
-# docker pull memcached
+# docker pull/stop/rm memcached
 # docker run -d --name memcached -p 11211:11211 memcached
-memcache_client = base.Client(('memcached', 11211))
-# memcache_client = base.Client(('localhost', 11211))
+
+# with docker-compose network  
+# memcache_client = base.Client(('memcached', 11211))
+
+# if memcache is local
+memcache_client = base.Client(('localhost', 11211))
 
 def get_cache(key):
     cached_response = memcache_client.get(key)

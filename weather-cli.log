@@ -1,2 +1,81 @@
 ERROR:__main__:Request error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/3.0/onecall?lat=-30.03283&lon=-51.23019&appid=12aae474bd9d481968c9b6266c540232a&units=metric&exclude=minutely%2Chourly%2Cdaily%2Calerts
 2024-08-28 14:32:24,751 Request error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/3.0/onecall?lat=-30.03283&lon=-51.23019&appid=12aae474bd9d481968c9b6266c540232a&units=metric&exclude=minutely%2Chourly%2Cdaily%2Calerts
+2024-08-29 09:13:41,132 Request error: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/3.0/onecall?lat=-30.03283&lon=-51.23019&appid=12aae474bd9d481968c9b6266c540232&units=metric&exclude=minutely%2Chourly%2Cdaily%2Calerts
+2024-08-29 09:14:31,189 Using cached data
+2024-08-29 09:17:11,661 Using cached data
+2024-08-29 09:18:33,027 Using cached data
+2024-08-29 09:18:34,477 Using cached data
+2024-08-29 09:18:34,993 Using cached data
+2024-08-29 09:18:35,380 Using cached data
+2024-08-29 09:18:35,802 Using cached data
+2024-08-29 09:18:36,213 Using cached data
+2024-08-29 09:18:36,595 Using cached data
+2024-08-29 09:18:37,001 Using cached data
+2024-08-29 09:18:37,377 Using cached data
+2024-08-29 09:19:02,850 Using cached data
+2024-08-29 09:53:30,001 Using cached data
+2024-08-29 09:55:48,121 Using cached data
+2024-08-29 09:55:48,121 No weather data available.
+2024-08-29 09:55:49,568 Using cached data
+2024-08-29 09:55:49,568 No weather data available.
+2024-08-29 09:55:51,190 Using cached data
+2024-08-29 09:55:51,191 No weather data available.
+2024-08-29 09:56:34,216 Using cached data
+2024-08-29 09:56:34,216 No weather data available.
+2024-08-29 09:57:16,845 Using cached data
+2024-08-29 09:57:18,078 Using cached data
+2024-08-29 09:57:19,579 Using cached data
+2024-08-29 09:57:20,207 Using cached data
+2024-08-29 09:57:20,599 Using cached data
+2024-08-29 09:57:20,964 Using cached data
+2024-08-29 09:57:21,348 Using cached data
+2024-08-29 09:57:21,724 Using cached data
+2024-08-29 09:57:22,128 Using cached data
+2024-08-29 09:57:22,515 Using cached data
+2024-08-29 09:57:22,949 Using cached data
+2024-08-29 09:57:23,418 Using cached data
+2024-08-29 10:45:38,843 Using cached data
+2024-08-29 10:45:38,843 Using cached data
+2024-08-29 10:46:25,410 Using cached data - City lat/long
+2024-08-29 10:46:26,918 Using cached data - City lat/long
+2024-08-29 10:46:26,919 Using cached data - Weather
+2024-08-29 10:47:21,891 Using cached data - City lat/long
+2024-08-29 10:47:21,892 Using cached data - Weather
+2024-08-29 10:49:15,510 Request 200 http://api.openweathermap.org/geo/1.0/direct {'user-agent': 'weather-cli/0.0.1'} {'q': 'Sao_Paulo', 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'LIMIT': '1'}
+2024-08-29 10:49:16,024 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 10:49:17,775 Using cached data - City lat/long
+2024-08-29 10:49:17,775 Using cached data - Weather
+2024-08-29 10:50:04,892 Using cached data - City Sao_Paulo
+2024-08-29 10:50:05,407 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 10:50:06,258 Using cached data - City Sao_Paulo
+2024-08-29 10:50:06,259 Using cached data - Weather -46.6333824 -23.5506507
+2024-08-29 11:25:38,118 Request 200 http://api.openweathermap.org/geo/1.0/direct {'user-agent': 'weather-cli/0.0.1'} {'q': 'Sao_Paulo', 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'LIMIT': '1'}
+2024-08-29 11:25:38,639 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:26:30,842 Using cached data - City Sao_Paulo
+2024-08-29 11:26:31,347 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:26:38,492 Request 200 http://api.openweathermap.org/geo/1.0/direct {'user-agent': 'weather-cli/0.0.1'} {'q': 'Sao_Paulo', 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'LIMIT': '1'}
+2024-08-29 11:26:38,494 Using cached data - Weather -46.6333824 -23.5506507
+2024-08-29 11:26:50,015 Using cached data - City Sao_Paulo
+2024-08-29 11:26:50,536 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:26:53,301 Using cached data - City Sao_Paulo
+2024-08-29 11:26:53,302 Using cached data - Weather -46.6333824 -23.5506507
+2024-08-29 11:27:51,337 Request 200 http://api.openweathermap.org/geo/1.0/direct {'user-agent': 'weather-cli/0.0.1'} {'q': 'Sao_Paulo', 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'LIMIT': '1'}
+2024-08-29 11:27:51,842 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:27:54,024 Using cached data - City Sao_Paulo
+2024-08-29 11:27:54,025 Using cached data - Weather -46.6333824 -23.5506507
+2024-08-29 11:28:16,253 Using cached data - City Sao_Paulo
+2024-08-29 11:28:16,773 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:30:58,656 Request 200 http://api.openweathermap.org/geo/1.0/direct {'user-agent': 'weather-cli/0.0.1'} {'q': 'Sao_Paulo', 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'LIMIT': '1'}
+2024-08-29 11:30:59,153 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:31:18,959 Using cached data - City Sao_Paulo
+2024-08-29 11:31:19,452 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:31:46,792 Using cached data - City Sao_Paulo
+2024-08-29 11:31:47,289 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:32:15,170 Request 200 http://api.openweathermap.org/geo/1.0/direct {'user-agent': 'weather-cli/0.0.1'} {'q': 'Sao_Paulo', 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'LIMIT': '1'}
+2024-08-29 11:32:15,811 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:32:49,811 Using cached data - City Sao_Paulo
+2024-08-29 11:32:50,304 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:34:43,620 Request 200 http://api.openweathermap.org/geo/1.0/direct {'user-agent': 'weather-cli/0.0.1'} {'q': 'Sao_Paulo', 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'LIMIT': '1'}
+2024-08-29 11:34:44,141 Request 200 https://api.openweathermap.org/data/3.0/onecall {'user-agent': 'weather-cli/0.0.1'} {'lat': -46.6333824, 'lon': -23.5506507, 'appid': 'ab01497b830feef11e1577ad2adcdfbb', 'units': 'metric', 'exclude': 'minutely,hourly,daily,alerts'}
+2024-08-29 11:34:47,488 Using cached data - City Sao_Paulo
+2024-08-29 11:34:47,489 Using cached data - Weather -46.6333824 -23.5506507
