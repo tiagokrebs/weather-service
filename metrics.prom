@@ -1,0 +1,6 @@
+# HELP weather_cli_executions_total Number of times the weather CLI has been executed
+# TYPE weather_cli_executions_total counter
+weather_cli_executions_total 10.0
+# HELP weather_cli_executions_created Number of times the weather CLI has been executed
+# TYPE weather_cli_executions_created gauge
+weather_cli_executions_created 1.725366715137953e+09

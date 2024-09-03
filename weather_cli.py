@@ -5,16 +5,30 @@ import json
 import time
 import daemon
 from cache import get_cache, set_cache
+from metrics import increment_execution_count
 
 logger = logging.getLogger(__name__)
 FORMAT = '%(asctime)s %(message)s'
-logging.basicConfig(format=FORMAT, filename='weather-cli.log', level=logging.INFO)
+logging.basicConfig(format=FORMAT, filename='weather_cli.log', level=logging.INFO)
 
-API_KEY = "ab01497b830feef11e1577ad2adcdfbb"
+API_KEY = ""
 USER_AGENT = "weather-cli/0.0.1"
 
 def feels_like(temp, humidity):
-    return temp - ((0.55 - 0.0055 * humidity) * (temp - 14.5))
+    """
+    Calculate the 'feels like' temperature based on the actual temperature and humidity.
+
+    The 'feels like' temperature is an estimate of how hot or cold it feels to the human body,
+    taking into account the effect of humidity on the perception of temperature.
+
+    Parameters:
+    temp (float): The actual temperature in degrees Celsius.
+    humidity (float): The relative humidity as a percentage.
+
+    Returns:
+    float: The 'feels like' temperature in degrees Celsius.
+    """
+    return round(temp - ((0.55 - 0.0055 * humidity) * (temp - 14.5)), 3)
 
 def celcius_to_kelvin(temp):
     return temp + 273.15
@@ -38,8 +52,8 @@ def get_long_lat(city):
             data = r.json()
             set_cache(cache_key, data, expire=60)
         except requests.exceptions.RequestException as e:
-            print(f"Request error: {e}")
             logger.error(f"Request error: {e}")
+            raise(e)
     
     return data[0]['name'], data[0]['lat'], data[0]['lon']
 
@@ -148,6 +162,8 @@ def main():
     city_name, long, lat = get_long_lat(city)
     weather = get_weather(long, lat)
     show_weather(weather, city_name, output_format)
+
+    increment_execution_count()
 
 if __name__ == "__main__":
     main()

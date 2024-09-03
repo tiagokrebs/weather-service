@@ -1,10 +1,17 @@
+behave==1.2.6
 certifi==2024.7.4
 charset-normalizer==2.0.12
 daemon==1.2
+docutils==0.21.2
 hashring==1.5.1
 idna==3.8
+lockfile==0.12.2
 memcache==0.10.1
+parse==1.20.2
+parse-type==0.6.3
 pymemcache==3.5.2
+python-daemon==3.0.1
 requests==2.27.1
 six==1.16.0
 urllib3==1.26.19
+weather-cli==0.1

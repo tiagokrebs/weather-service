@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: weather-cli
+Version: 0.1
+Summary: A simple weather CLI tool
+Home-page: https://github.com/yourusername/weather-cli
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Dist: requests
+Requires-Dist: python-daemon
